@@ -1,0 +1,1 @@
+All data for this project (including external, interim, processed, and raw data) are stored in a separate directory on `Promethium:/data/riddlet/data_sharing_reuse/`.
