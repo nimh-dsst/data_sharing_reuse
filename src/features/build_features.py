@@ -42,7 +42,7 @@ def check_paren(myStr):
 def repo_label(text):
     passage_marked = 0
     
-    reg_matches = re.compile(r"""(github)|(osf\.io)|(nda\.nih\.gov)|(openneuro)|(\sndar)|(\(ndar))|
+    reg_matches = re.compile(r"""(github)|(osf\.io)|(nda\.nih\.gov)|(openneuro)|(\sndar)|(\(ndar\))|
                                  (national database for autism research)|(brain-map\.org)|
                                  (humanconnectome\.org)|(balsa\.wustl\.edu)|(loni\.usc\.edu)|
                                  (ida\.loni\.usc\.edu)|(fmridc)|(ccrns)|(datalad)|(dataverse)|
